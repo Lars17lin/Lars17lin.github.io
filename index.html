@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo PR AB – Strategisk marknadsföring & varumärkesutveckling</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            color: #2e2e2e;
+            background-color: #f6f7f4;
+            line-height: 1.6;
+        }
+
+        h1, h2, h3 {
+            font-weight: 500;
+            letter-spacing: 0.5px;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        .center {
+            text-align: center;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        /* HERO */
+        .hero {
+            height: 100vh;
+            background: 
+                linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                url("https://images.unsplash.com/photo-1475965894430-b05c9d13568a?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjB8fHRleHR1cmV8ZW58MHx8MHx8fDA%3D")
+                center/cover no-repeat;
+            color: #ffffff;
+            display: flex;
+            align-items: center;
+        }
+
+        .hero-content {
+            max-width: 800px;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 35px;
+        }
+
+        .btn {
+            padding: 14px 36px;
+            border: 1px solid #ffffff;
+            color: #ffffff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: rgba(255,255,255,0.15);
+        }
+
+        /* SERVICES / ADVANTAGES / PROCESS */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+
+        .card {
+            background: #ffffff;
+            padding: 35px;
+            border-radius: 4px;
+        }
+
+        /* CONTACT */
+        .contact {
+            height: 100vh;
+            background-color: #e9ede6;
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-box {
+            max-width: 700px;
+            margin: auto;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 14px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            padding: 14px 40px;
+            border: none;
+            background: #2e3d32;
+            color: #ffffff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        /* FOOTER */
+        footer {
+            background: #2e3d32;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 10%;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- 1. HERO -->
+<section class="hero">
+    <div class="hero-content">
+        <h1>ToDo PR AB</h1>
+        <p>
+            Strategisk marknadsföring och varumärkesrådgivning för företag som vill växa hållbart.  
+            Vi kombinerar analys, kreativitet och affärsförståelse för att skapa synlighet som leder till verkliga resultat.
+        </p>
+        <a href="#contact" class="btn">Kontakter</a>
+    </div>
+</section>
+
+<!-- 2. ABOUT -->
+<section>
+    <div class="center">
+        <h2>Vår filosofi & erfarenhet</h2>
+        <p>
+            ToDo PR AB är ett konsultbolag som arbetar nära sina kunder för att bygga starka, trovärdiga varumärken.  
+            Vi fokuserar på långsiktiga strategier snarare än snabba kampanjer utan riktning.  
+            Med erfarenhet inom marknadsföring, SEO och e-handel hjälper vi företag att strukturera sin kommunikation och nå rätt målgrupp.  
+            Vårt arbete grundar sig i data, men formas av mänsklig insikt och kreativt tänkande.  
+            Vi tror på transparens, enkelhet och hållbar tillväxt.
+        </p>
+    </div>
+</section>
+
+<!-- 3. SERVICES -->
+<section>
+    <div class="center">
+        <h2>Vad vi faktiskt gör</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Strategisk marknadsföring</h3>
+                <p>
+                    Vi tar fram tydliga marknadsstrategier baserade på affärsmål, målgrupp och konkurrensanalys.  
+                    Fokus ligger på rätt kanaler, rätt budskap och mätbara resultat.  
+                    Strategin fungerar som ett praktiskt beslutsunderlag för hela organisationen.
+                </p>
+            </div>
+            <div class="card">
+                <h3>SEO & digital synlighet</h3>
+                <p>
+                    Vi optimerar webbplatser för långsiktig organisk tillväxt i sökmotorer.  
+                    Arbetet omfattar teknisk SEO, innehållsstrategi och användarbeteende.  
+                    Målet är relevant trafik som faktiskt konverterar.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Varumärke & e-handel</h3>
+                <p>
+                    Vi hjälper företag att skapa ett konsekvent varumärkesuttryck i digitala miljöer.  
+                    För e-handel fokuserar vi på struktur, kundresa och konverteringsoptimering.  
+                    Resultatet är en tydligare position och bättre försäljning.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 4. ADVANTAGES -->
+<section>
+    <div class="center">
+        <h2>Varför samarbeta med oss</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>Affärsnära rådgivning</h3>
+                <p>
+                    Vi arbetar alltid utifrån företagets faktiska affärsutmaningar och mål, inte generella modeller.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Struktur & tydlighet</h3>
+                <p>
+                    Våra kunder uppskattar tydliga processer, konkreta rekommendationer och realistiska prioriteringar.
+                </p>
+            </div>
+            <div class="card">
+                <h3>Hållbart perspektiv</h3>
+                <p>
+                    Vi bygger lösningar som fungerar över tid och stärker varumärket på lång sikt.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 5. PROCESS -->
+<section>
+    <div class="center">
+        <h2>Så arbetar vi</h2>
+        <div class="grid-3">
+            <div class="card">
+                <h3>1. Analys & insikt</h3>
+                <p>
+                    Vi analyserar nuläge, målgrupp, marknad och befintliga kanaler för att skapa en tydlig bild.
+                </p>
+            </div>
+            <div class="card">
+                <h3>2. Strategi & plan</h3>
+                <p>
+                    Utifrån analysen tar vi fram en konkret strategi med tydliga prioriteringar och rekommendationer.
+                </p>
+            </div>
+            <div class="card">
+                <h3>3. Implementering & uppföljning</h3>
+                <p>
+                    Vi stöttar genomförandet och följer upp resultat för kontinuerlig förbättring.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 6. CONTACT -->
+<section id="contact" class="contact">
+    <div class="contact-box">
+        <h2>Låt oss ta nästa steg tillsammans</h2>
+        <p>
+            Har du frågor eller vill diskutera ett framtida samarbete?  
+            Kontakta oss via e-post så återkommer vi med ett förslag anpassat efter dina behov.
+        </p>
+        <p>
+            <strong>E-post:</strong> office@todopr.agency<br>
+            <strong>Adress:</strong> Backen 178, 836 95 Ås, Jämtland
+        </p>
+
+        <form>
+            <input type="text" placeholder="Namn">
+            <input type="email" placeholder="E-post">
+            <textarea rows="4" placeholder="Meddelande"></textarea>
+            <button type="submit">Skicka</button>
+        </form>
+    </div>
+</section>
+
+<!-- 8. FOOTER -->
+<footer>
+    © 2026 ToDo PR AB · Strategisk marknadsföring & rådgivning
+</footer>
+
+</body>
+</html>
